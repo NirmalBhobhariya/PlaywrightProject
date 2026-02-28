@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Successful login with valid credentials', async ({ page }) => {
-  // 1. Navigate to the login page
+  // 1. Navigate to the login page page
   await page.goto('https://the-internet.herokuapp.com/login');
 
   // 2. Fill in the username and password fields
